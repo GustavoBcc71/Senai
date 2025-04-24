@@ -36,7 +36,7 @@ programa {
     escreva("Qual o mes do nascimento: ")
     leia(mes)
 
-    escreva("Qual o dia do nascimento: ")
+    escreva(" lmao ")
     leia(dia)
 
     escreva("Digite a data atual\n")
