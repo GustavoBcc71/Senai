@@ -1,5 +1,7 @@
 programa {
 
+//editado por Guilherme, Antônio, Cláudia
+
   funcao vazio verificaIdade(inteiro dia_nascimento, inteiro mes_nascimento, inteiro ano_nascimento, inteiro dia_atual, inteiro mes_atual, inteiro ano_atual) {
 
     inteiro anos, meses, dias, idade_em_dias
@@ -34,7 +36,7 @@ programa {
     escreva("Qual o mes do nascimento: ")
     leia(mes)
 
-    escreva("Qual o dia do nascimento: ")
+    escreva(" lmao ")
     leia(dia)
 
     escreva("Digite a data atual\n")
