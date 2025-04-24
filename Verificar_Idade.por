@@ -17,7 +17,7 @@ programa {
     se (anos >= 16) {
       escreva("Voce ja pode votar!")
     } senao {
-      escreva("Voce nao pode votar!")
+      escreva("Voce nao pode votar, vai estudar!")
     }
 
   }
