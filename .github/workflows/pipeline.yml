@@ -1,8 +1,6 @@
 # pipeline.yml
 # Dupla: Gustavo e Breno
 
-# Dupla: Gustavo e Breno
-
 name: CI para Pull Request
 
 on:
