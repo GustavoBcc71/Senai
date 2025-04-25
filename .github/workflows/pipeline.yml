@@ -1,6 +1,8 @@
 # pipeline.yml
 # Dupla: Gustavo e Breno
 
+# Dupla: Gustavo e Breno
+
 name: CI para Pull Request
 
 on:
@@ -8,20 +10,19 @@ on:
 
 jobs:
   build:
-  display_messages:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checando o repositório
-      uses: actions/checkout@v3
+      - name: Checando o repositório
+        uses: actions/checkout@v3
 
-    - name: Mensagem 1
-      run: echo "Começando o CI para PR!"
+      - name: Mensagem 1
+        run: echo "Começando o CI para PR!"
 
-    - name: Mensagem 2
-      run: echo "Código recebido. Executando validações..."
+      - name: Mensagem 2
+        run: echo "Código recebido. Executando validações..."
 
-    - name: Mensagem 3
-      run: echo "Processo concluído com sucesso!"
+      - name: Mensagem 3
+        run: echo "Processo concluído com sucesso!"
+
 
 #Editado por: Antônio, Cláudia, Guilherme.
